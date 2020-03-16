@@ -1,0 +1,112 @@
+body {
+   /* background-image: url('../images/background.png');
+   background-repeat: no-repeat;
+   background-size: cover; */
+   background: url("../images/bg4.png"); 
+    /* -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important; */
+
+  
+}
+
+label[data-shrink="false"].small{
+  transform: translate(5px, 8px) scale(1) !important;
+  font-size: .95rem;
+  
+}
+
+label[data-shrink="true"].small{
+  transform: translate(1px, -5px) scale(1);
+  font-size: .7rem;
+  /* margin-right: 5px; */
+}
+
+/* body {
+  font-family: arial, sans-serif;
+  position: relative !important;    
+  height: auto !important;    
+  min-height: 100% !important;    
+  background: url('../images/ML.jpg') no-repeat center bottom fixed !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+} */
+
+.form-group {
+  margin: 0
+}
+.input-login-password{
+  margin-bottom: 1rem;
+}
+.LoginForm {
+    margin: 60px auto;
+    padding: 20px 35px;
+    background-color: #6d6d6d;
+    max-width: 330px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px 0px #00000033, 0px 2px 10px 0px #00000024, 0px 2px 10px 2px #0000001f
+ }
+
+.imageLogo {
+ max-width: 80px;
+}
+
+.logo {
+ text-align: center;
+ margin: 20px auto;
+}
+
+.nameLogo{
+   max-width: 250px;
+   margin-bottom: 10px;
+}
+
+.modalcontent-error {
+  margin: 0 auto;
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  text-align: center;
+}
+.modalcontent-success{
+  margin: 0 auto;
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  text-align: center;
+}
+
+.modalcontent-loading{
+  text-align: center;
+}
+
+.table td, .table th {
+  padding: 0.5rem !important;
+}
+
+.space-between {
+  justify-content: space-between;
+  display:flex;
+}
+
+.flex-end {
+  justify-content: flex-end;
+  display:flex;
+}
+
+.space-around {
+  justify-content: space-around;
+  display:flex;
+}
+
+.notFoundPage {
+    margin: 250px auto;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    background-color: #E0051A;
+    color: white;
+    border-radius: 5px;
+}

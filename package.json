@@ -7,7 +7,7 @@
       "@material-ui/core": "^3.9.1",
       "@material-ui/icons": "^3.0.2",
       "antd": "^3.16.3",
-      "axios": "^0.18.1",
+      "axios": "^0.21.1",
       "bootbox": "^4.4.0",
       "dotenv": "^6.2.0",
       "log4js": "^4.1.0",
